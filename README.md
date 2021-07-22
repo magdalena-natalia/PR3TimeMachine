@@ -4,24 +4,28 @@ The Polish Radio Program 3 used to shape music taste of Polish listeners. Founde
 This app is meant to be a time machine for all listeners of Polish Radio Program 3, allowing them to listen to the chosen chart songs once again, on Spotify.
 
 <h1>Main functionalities</h1>
-- crawling through a website with the charts of Polish Radio Program 3 and scraping the data of all of them
-- writing web scraped data to json file
-- reading json file and find the chart on the date chosen by an user
-- offering user a choice between the nearest dates if the exact data not found but in the time frame of the charts airing
-- finding Spotify uri-s of all the songs, using multiple queries options to guarantee the best search results
-- creating and saving the playlist on an user's account
+<ul>
+<li>crawling through a website with the charts of Polish Radio Program 3 and scraping the data of all of them</li>
+<li>writing web scraped data to json file</li>
+<li>reading json file and find the chart on the date chosen by an user</li>
+<li>offering user a choice between the nearest dates if the exact data not found but in the time frame of the charts airing</li>
+<li>finding Spotify uri-s of all the songs, using multiple queries options to guarantee the best search results</li>
+<li>creating and saving the playlist on an user's account</li>
+</ul>
 
 <h1>Used libraries</h1>
-selenium webdriver module # to serve web crawler
-spotipy # to serve new playlists creation
-
-json # to serve json files
-datetime # to serve date search
-dotenv # to serve virtual environment variables
-pathlib # to serve files paths
-logging # to provide logs
-os # to serve system system files
-time # to serve proper web scraping, ensuring that the entire subpages are loaded
+<ul>
+<li>selenium webdriver module # to serve web crawler</li>
+<li>spotipy # to serve new playlists creation</li>
+<br>
+<li>json # to serve json files</li>
+<li>datetime # to serve date search</li>
+<li>dotenv # to serve virtual environment variables</li>
+<li>pathlib # to serve files paths</li>
+<li>logging # to provide logs</li>
+<li>os # to serve system system files</li>
+<li>time # to serve proper web scraping, ensuring that the entire subpages are loaded</li>
+</ul>
 
 
 
