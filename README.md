@@ -1,5 +1,5 @@
 <h1>PR3TimeMachine</h1>
-The Polish Radio Program 3 used to shape music taste of Polish listeners. Founded in 1982 and hosted by Marek Niedzwiecki,the Charts included songs that weren'taired by any other radio station in Poland. 
+The Polish Radio Program 3 used to shape music taste of Polish listeners. Founded in 1982 and hosted by Marek Niedzwiecki, the Charts included songs that weren't aired by any other radio station in Poland. 
 
 This app is meant to be a time machine for all listeners of Polish Radio Program 3, allowing them to listen to the chosen chart songs once again, on Spotify.
 
@@ -7,8 +7,8 @@ This app is meant to be a time machine for all listeners of Polish Radio Program
 <ul>
 <li>crawling through a website with the charts of Polish Radio Program 3 and scraping the data of all of them</li>
 <li>writing web scraped data to json file</li>
-<li>reading json file and find the chart on the date chosen by an user</li>
-<li>offering user a choice between the nearest dates if the exact data not found but in the time frame of the charts airing</li>
+<li>reading json file and finding a chart aired on the date chosen by an user</li>
+<li>offering user a choice between the nearest dates, if the exact data hasn not been found but it is in the time frame of the charts airing</li>
 <li>finding Spotify uri-s of all the songs, using multiple queries options to guarantee the best search results</li>
 <li>creating and saving the playlist on an user's account</li>
 </ul>
